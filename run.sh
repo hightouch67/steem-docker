@@ -57,7 +57,7 @@ RESET="$(tput sgr0)"
 : ${STOP_TIME=600}
 
 # Git repository to use when building Steem - containing steemd code
-: ${STEEM_SOURCE="https://github.com/steemit/steem.git"}
+: ${STEEM_SOURCE="https://github.com/steemitofficial/steem.git"}
 
 # Comma separated list of ports to expose to the internet.
 # By default, only port 2001 will be exposed (the P2P seed port)
@@ -142,7 +142,7 @@ if [[ ! -f "$MIRA_FILE" ]]; then
         cp -vi "$EXAMPLE_MIRA" "$MIRA_FILE" 
         echo "${GREEN} > Successfully installed example MIRA config.${RESET}"
         echo " > You may want to adjust this depending on your resources and type of node:"
-        echo " - - > https://github.com/steemit/steem/blob/master/doc/mira.md"
+        echo " - - > https://github.com/steemitofficial/steem/blob/master/doc/mira.md"
 
     else
         echo "${YELLOW}WARNING: You don't seem to have a MIRA config file (data/database.cfg) and the example config couldn't be found...${RESET}"

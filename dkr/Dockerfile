@@ -24,7 +24,7 @@ RUN pip3 install jinja2
 ARG steemd_version=stable
 ENV steemd_version ${steemd_version}
 
-ARG STEEM_SOURCE="https://github.com/steemit/steem.git"
+ARG STEEM_SOURCE="https://github.com/steemitofficial/steem.git"
 ENV STEEM_SOURCE ${STEEM_SOURCE}
 
 ARG STEEM_STATIC_BUILD=ON
