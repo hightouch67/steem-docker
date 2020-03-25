@@ -130,7 +130,7 @@ The most common .env which is recommended for witnesses is the following:
 
 
 ```
-DOCKER_NAME=witness
+DOCKER_NAME=rpc1
 PORTS=
 ```
 
@@ -139,7 +139,7 @@ The above `.env` file will set your docker container name to "witness", instead 
 Full list of possible configuration options:
 
  - **PORTS** - default `2001` - a comma separated list of ports in steemd to forward to the internet
- - **DOCKER_NAME** - default `seed` - the container name to use for your steemd server
+ - **DOCKER_NAME** - default `rpc1` - the container name to use for your steemd server
  - **DOCKER_DIR** - default `$DIR/dkr` - The directory to build the low memory node docker image from
  - **FULL_DOCKER_DIR** - default `$DIR/dkr_fullnode` - The directory to build the full-node RPC node docker image from
  - **DK_TAG** - default `someguy123/steem:latest` - The docker tag to obtain Steem from. Useful for installing beta versions, or downgrading to previous versions.

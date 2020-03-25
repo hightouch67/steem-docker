@@ -5,7 +5,7 @@ p2p-endpoint = 0.0.0.0:2001
 p2p-max-connections = 200
 
 # Shared file size
-shared-file-size = 64G
+shared-file-size = 1000G
 shared-file-dir = /shm/
 
 # A 2-precision percentage (0-10000) that defines the threshold for when to 
@@ -76,7 +76,7 @@ enable-stale-production = false
 required-participation = 33
 
 # name of witness controlled by this node (e.g. initwitness )
-# witness =
+# witness = 
 
 # name of miner and its private key (e.g. ["account","WIF PRIVATE KEY"] )
 # miner =
